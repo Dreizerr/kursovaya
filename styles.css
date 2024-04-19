@@ -204,6 +204,7 @@ h1 {
   gap: 20px;
   background-color: rgb(16, 20, 24);
   padding: 20px;
+  overflow: hidden;
 }
 
 .comment__img {
@@ -212,6 +213,13 @@ h1 {
 
 .comment__title {
   font-weight: 500;
+}
+
+.comment__text {
+  margin-top: 5px;
+}
+.comment__text img {
+  max-width: 100px;
 }
 
 .comments-form {
