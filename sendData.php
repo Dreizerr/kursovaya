@@ -2,7 +2,7 @@
 include "connect.php";
 
 $textData = $_POST["textData"];
-// $textData = htmlspecialchars($textData);
+$textData = htmlspecialchars($textData);
 echo ($textData);
 mysqli_query($db, "INSERT INTO `comments` (`textdata`) VALUES ('$textData')");
 ?>
