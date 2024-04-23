@@ -5,13 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css" />
-
   <title>Комментарии</title>
 </head>
 
 <body>
-
-
   <div class="comments">
     <div class="comments__container">
       <form novalidate method="post" enctype="multipart/form-data" class="form comments-form">
